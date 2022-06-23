@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "devStart": "nodemon app.js"
+  },
+  "author": "olegtomkov",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "mongoose": "^6.0.14",
+    "nodemon": "^2.0.15"
+  }
+}

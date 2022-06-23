@@ -1,0 +1,442 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background: #eee;
+    padding: 0 16px;
+}
+
+.error input
+{
+    border-bottom: 1px solid #eb516d;
+}
+
+.administorPageDiv{
+    float: left;
+    position: relative;
+    bottom: 200px;
+}
+
+.AllNotesDivs{
+    float: right;
+    width: 900px;
+}
+
+.searchUserForm{
+    padding: 20px 0;
+    position: relative;
+    width: 480px;
+    height: 550px;
+    margin: 10px auto 20px auto;
+    background: #fff;
+    padding: 30px 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+    text-align: center;
+    top: 80px;
+}
+
+form {
+    padding: 20px 0;
+    position: relative;
+    width: 480px;
+    height: 580px;
+    margin: 10px auto 20px auto;
+    background: #fff;
+    padding: 30px 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+    text-align: center;
+    top: 80px;
+  }
+form input {
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 250px;
+    border-radius: 3px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px 15px;
+    margin: 10px auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+
+form h1{
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-size: 50px;
+    color: #97BFB4;
+}
+
+.formTextField{
+    margin: 10px;
+}
+
+.openTaskForm{
+    position: relative;
+    left: 240px;
+    top: 0px;
+    height: 461px;
+}
+
+.openTaskForm textarea{
+    float:left;
+    position: relative;
+    left: 37px;
+    top: 30px;
+    border: solid 1px green;
+    border-radius: 10px;
+    resize: none;
+    height:245px;
+    width:375px;
+    padding: 20px;
+}
+
+.formPageInput, .formPageTextArea{
+    width: 80%;
+    border: solid 1px green;
+    border-radius: 10px;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+    margin: 30px;
+    height: 410px;
+}
+
+.formPagebutton {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #97BFB4;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 80%;
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  }
+.formPagebutton:hover{
+    background-color: #06a87d; /* Green */
+    color: white;
+}
+
+.formBackbutton {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    left: 18px;
+    bottom: -18px;
+    background: #97BFB4;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 80%;
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  }
+.formBackbutton:hover{
+    background-color: #06a87d; /* Green */
+    color: white;
+}
+
+
+
+.formSearchbutton{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    right: 390px;
+    bottom: -18px;
+    background: #97BFB4;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 80%;
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+}
+.formSearchbutton:hover{
+    background-color: #06a87d; /* Green */
+    color: white;
+}
+
+form button {
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #50a3a2;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 18px;
+}
+
+header{
+    background-color: #CDF2CA;
+    margin: auto -8px;
+    padding: 4px 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    height: 65px;
+}
+
+header h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+    float: left;
+}
+
+header Button{
+    position: absolute;
+    left: 1435px;
+    bottom: 50px;
+}
+
+header p{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size:xxx-large ;
+    font-weight: 200;
+    float: right;
+    display: inline-block;
+    width: 340px;
+}
+
+.loginDiv{
+    background: #fff;
+    position: relative;
+    padding: 15px 15px;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    width: 240px;
+    margin: 50px 0;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+
+input{
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.buttonPage{
+    font-family:'Alegreya Sans SC', sans-serif;
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #50a3a2;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 35px;
+    margin: 5px 5px;
+    cursor: pointer;
+    
+}
+
+.buttonPage:hover{
+    background-color: #97BFB4; /* Green */
+    color: black;
+}
+
+.divScrollBar{
+    height: 350px;
+    overflow-y: scroll;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+footer p {
+    color: #ccc;
+}
+
+.note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #97BFB4;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+    height: 150px;
+}
+.note h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+}
+.note p.a {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.note p.b{
+    position: relative;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    float: right;
+}
+
+.note button {
+    position: relative;
+    float: right;
+    cursor: pointer;
+    margin: 5px;
+    top:15px;
+}
+
+.note .divButtons{
+    margin: 20px;
+    position: relative;
+    bottom: 8px;
+    width: 200px;
+    right: 16px;
+}
+
+.note .divButtonsAd{
+    margin: 20px;
+    position: relative;
+    top: 22px;
+    width: 200px;
+    right: 16px;
+}
+
+.note .userLogo{
+}
+
+.note .userLogo p{
+    float:right;
+    position: relative;
+    right:64px;
+    top:4px;
+    font-size: 13px;
+}
+
+.h1Register{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-size: 80px;
+    color: #97BFB4;
+}
+
+.registerForm{
+    padding: 20px 0;
+    position: relative;
+    width: 880px;
+    height: 100%;
+    margin: 10px auto 20px auto;
+    background: #fff;
+    padding: 30px 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+    text-align: center;
+    top: 150px;
+}
+
+.loginForm{
+    padding: 20px 0;
+    position: relative;
+    width: 480px;
+    height: 100%;
+    margin: 10px auto 20px auto;
+    background: #fff;
+    padding: 30px 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+    text-align: center;
+    top: 100px;
+}
+
+.h1Login{
+    position: relative;
+    top: 80px;
+    text-align: center;
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-size: 80px;
+    color: #97BFB4;
+}
+
+.noTasksYet{
+    position: absolute;
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-size: 72px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px rgb(114, 114, 114);
+    color: #97BFB4;
+    
+    left: 900px;
+    top: 210px;
+}
+
+.newSerchButton{
+    float: left;
+    bottom: 10px;
+}
+
+.hiPage{
+    position: relative;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    top: 37px;
+    height: 140px;
+    font-size: 70px;
+    left: 230px;
+}
+
+.buttonSearch{
+    font-family:'Alegreya Sans SC', sans-serif;
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #50a3a2;
+    border-radius: 3px;
+    width: 100px;
+    height: 66px;
+    font-size: 25px;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+.buttonSearch:hover{
+    background-color: #97BFB4; /* Green */
+    color: black;
+}
+
+.divSearch{
+    display: inline;
+    width: 360px;
+}
+
+
